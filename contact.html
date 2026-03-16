@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | CareGridHealth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container nav">
+        <h1 class="logo">CareGridHealth</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a class="active" href="contact.html">Contact</a>
+            <button id="themeToggle" class="theme-toggle">🌙</button>
+        </nav>
+    </div>
+</header>
+
+<section class="page" data-aos="fade-in">
+    <div class="container">
+        <h2>Contact Us</h2>
+
+        <p><strong>Location:</strong> Melbourne VIC, Australia</p>
+        <p><strong>Phone:</strong> +61 421 283 398</p>
+        <p><strong>Email:</strong> caregrid.health@gmail.com</p>
+        <p><strong>Hours:</strong> Mon–Fri, 08:00–19:00</p>
+
+        <form action="https://formspree.io/f/xyzabcde" method="POST" class="contact-form">
+            <label>Name
+                <input type="text" name="name" required>
+            </label>
+
+            <label>Email
+                <input type="email" name="email" required>
+            </label>
+
+            <label>Message
+                <textarea name="message" rows="5" required></textarea>
+            </label>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p class="form-note">
+            Please do not submit patient or sensitive clinical data.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 CareGridHealth</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

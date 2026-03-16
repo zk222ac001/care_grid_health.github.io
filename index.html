@@ -1,59 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Digital Health</title>
+    <title>CareGridHealth | Digital Health Integration</title>
+
+    <!-- SEO -->
+    <meta name="description" content="CareGridHealth provides secure, compliant digital health integration and consulting services across the Asia-Pacific region.">
+    <meta name="keywords" content="Digital Health Integration, Healthcare IT Consulting, HL7, FHIR">
+    <meta name="author" content="CareGridHealth">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <nav class="navbar">
-        <div class="logo">Digital Health</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container nav">
+        <h1 class="logo">CareGridHealth</h1>
+        <nav>
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <button id="themeToggle" class="theme-toggle">🌙</button>
+        </nav>
+    </div>
 </header>
 
-<section id="home" class="hero">
-    <h1>Empowering Digital Health</h1>
-    <p>Connecting the Future of Healthcare</p>
+<section class="hero" data-aos="fade-up">
+    <div class="container">
+        <h2>Empowering Digital Health</h2>
+        <p>Connecting the Future of Healthcare</p>
+        <a href="services.html" class="btn">Explore Services</a>
+    </div>
 </section>
 
-<section id="about" class="section">
-    <h2>About Us</h2>
-    <p>
-        We focus on innovative digital health solutions that improve healthcare
-        accessibility, security, and efficiency through modern technology.
-    </p>
-</section>
-
-<section id="services" class="section light">
-    <h2>Our Services</h2>
-    <ul class="services-list">
-        <li>Digital Health Platforms</li>
-        <li>Secure IT & Cybersecurity Solutions</li>
-        <li>Healthcare Technology Consulting</li>
-        <li>System Integration & Automation</li>
-    </ul>
-</section>
-
-<section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p><strong>Email:</strong> info@digitalhealth.dk</p>
-    <p><strong>Phone:</strong> +45 00 00 00 00</p>
-    <p><strong>Location:</strong> Denmark</p>
+<section class="features">
+    <div class="container grid">
+        <div class="card" data-aos="fade-up">
+            <h3>Integration Expertise</h3>
+            <p>Secure, standards-based healthcare system integration.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <h3>Compliance Focused</h3>
+            <p>Designed with healthcare regulations and data security in mind.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <h3>Scalable Architecture</h3>
+            <p>Future-ready digital health environments built to scale.</p>
+        </div>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Digital Health. All rights reserved.</p>
+    <p>© 2026 CareGridHealth</p>
+    <p class="disclaimer">
+        CareGridHealth provides technology and integration services only.
+        We do not provide clinical advice or manage patient data directly.
+    </p>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
